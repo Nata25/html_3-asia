@@ -1,0 +1,10 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: Tahoma, sans-serif;
+}
+
+.logo {
+    background: url('../img/palm-tree.png') no-repeat center;
+    overflow: visible;
+}
