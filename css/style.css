@@ -1,10 +1,50 @@
+/* General styles */
+
 body {
+    margin: 0;
+    padding: 0;
     background-color: #000;
-    color: #FFF;
+    color: #B5B5B5;
     font-family: Tahoma, sans-serif;
 }
 
-.logo {
-    background: url('../img/palm-tree.png') no-repeat center;
-    overflow: visible;
+header,
+main,
+footer {
+    text-align: center;
 }
+
+h1,
+h2,
+.contacts,
+.contacts > a,
+footer {
+    font-size: .8em;
+}
+
+/* Header */
+
+.contacts {
+    margin-top: 30px;
+}
+
+.contacts > a {
+    display: block;
+    margin-top: 5px;
+    color: #B5B5B5;
+    text-decoration: none;
+}
+
+.logo {
+    background: url('../img/palm-tree.png') no-repeat right bottom;
+    overflow: visible;
+    /*text-align: center;*/
+}
+
+.logo > img {
+    margin-top: 100px;
+}
+
+/* Main area */
+
+/* Footer */
