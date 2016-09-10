@@ -41,7 +41,6 @@ header {
 .logo {
     background: url('../img/palm-tree.png') no-repeat right bottom;
     overflow: visible;
-    /*text-align: center;*/
 }
 
 .logo > img {
@@ -73,7 +72,27 @@ footer {
 
   /* Small Devices, Tablets */
   @media only screen and (min-width : 768px) {
+        header {
+            width: 100%;
+            text-align: inherit;
+        }
 
+        .logo,
+        .contacts {
+            display: inline-block;
+        }
+
+        .logo {
+            margin-left: 10%;
+        }
+
+        .contacts {
+            margin-left: 32%;
+        }
+
+        main figure {
+            display: inline-block;
+        }
   }
 
   /* Medium Devices, Desktops */
