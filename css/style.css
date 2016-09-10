@@ -28,7 +28,7 @@ header {
 }
 
 .contacts {
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .contacts > a {
@@ -43,8 +43,8 @@ header {
     padding: 15px;
 }
 
-.logo > img {
-    margin-top: 100px;
+.logo img {
+    margin-top: 70px;
 }
 
 main img {
@@ -92,7 +92,12 @@ footer {
             text-align: center;
         }
 
+        .logo img {
+            margin-top: 100px;
+        }
+
         .contacts {
+            margin-top: 30px;
             margin-left: 150px;
         }
 
