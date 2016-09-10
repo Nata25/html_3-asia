@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background: #000 url('../img/background.png') no-repeat center center;
     color: #B5B5B5;
     font-family: Tahoma, sans-serif;
 }
