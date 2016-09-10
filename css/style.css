@@ -24,6 +24,11 @@ footer {
 
 /* Header */
 
+header {
+    width: 300px;
+    margin: 0 auto;
+}
+
 .contacts {
     margin-top: 30px;
 }
