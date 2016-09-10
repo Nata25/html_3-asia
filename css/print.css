@@ -1,0 +1,28 @@
+body {
+    background: transparent;
+}
+
+body,
+.contacts > a {
+    color: #000;
+}
+
+.logo {
+    background: url('../img/palm-tree-print.png') no-repeat right bottom;
+}
+
+.logo img {
+    margin-top: 30px;
+}
+
+.backup {
+    display: block;
+}
+
+.show {
+    display: none;
+}
+
+main img {
+    border: none;
+}

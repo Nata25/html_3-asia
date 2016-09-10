@@ -36,6 +36,10 @@ header {
     margin-top: 70px;
 }
 
+.backup {
+    display: none;
+}
+
 .contacts {
     margin-top: 0;
 }
@@ -48,22 +52,22 @@ header {
 }
 
 main img {
-    width: 100%;
+    width: 100%;  /* for resize on xs screens */
     max-width: 260px;
     border: 4px ridge #B1B1B1;
 }
 
 footer {
-    margin-bottom: 30px;
-    margin-top: 50px;
+    margin: 50px auto 30px;
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px),
+       print {
 
     header,
     main {
-        width: 585px;
+        width: 585px; /* 2 colums greed */
         margin: 0 auto;
     }
 
@@ -104,11 +108,43 @@ footer {
 
     header,
     main {
-        width: 875px;
+        width: 875px; /* 3 colums greed */
         margin: 0 auto;
     }
 
     .contacts {
         margin-left: 450px;
+    }
+}
+
+@media print {
+    body {
+        background: transparent;
+    }
+
+    body,
+    .contacts > a {
+        color: #000;
+    }
+
+    .logo {
+        background: url('../img/palm-tree-green.png') no-repeat right bottom;
+        overflow: visible;
+    }
+
+    .logo img {
+        margin-top: 50px;
+    }
+
+    .backup {
+        display: block;
+    }
+
+    .show {
+        display: none;
+    }
+
+    main img {
+        border: none;
     }
 }
