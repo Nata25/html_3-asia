@@ -49,6 +49,8 @@ header {
 }
 
 main img {
+    width: 100%;
+    max-width: 261px;
     border: 4px ridge #B1B1B1;
 }
 
