@@ -22,8 +22,6 @@ footer {
     font-size: .8em;
 }
 
-/* Header */
-
 header {
     width: 300px;
     margin: 0 auto;
@@ -50,6 +48,38 @@ header {
     margin-top: 100px;
 }
 
-/* Main area */
+main img {
+    border: 4px ridge #B1B1B1;
+}
 
-/* Footer */
+footer {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+/* Media queries */
+
+/* Custom, iPhone Retina */
+  @media only screen and (min-width : 320px) {
+
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (min-width : 480px) {
+
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+
+  }
+
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+
+  }
