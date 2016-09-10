@@ -84,20 +84,27 @@ footer {
 
         .logo {
             margin-left: 10%;
+            text-align: center;
+            padding: 15px;
         }
 
         .contacts {
             margin-left: 32%;
         }
 
-        main figure {
+        .country {
             display: inline-block;
+            margin: 0 10px;
+        }
+
+        .country > figcaption {
+            margin: 0 20px 50px;
         }
   }
 
   /* Medium Devices, Desktops */
   @media only screen and (min-width : 992px) {
-
+        
   }
 
   /* Large Devices, Wide Screens */
