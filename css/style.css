@@ -1,4 +1,4 @@
-/* General styles */
+/* General styles + mobile xs */
 
 body {
     margin: 0;
@@ -27,6 +27,15 @@ header {
     margin: 0 auto;
 }
 
+.logo {
+    background: url('../img/palm-tree.png') no-repeat right bottom;
+    padding: 15px;
+}
+
+.logo img {
+    margin-top: 70px;
+}
+
 .contacts {
     margin-top: 0;
 }
@@ -36,15 +45,6 @@ header {
     margin-top: 5px;
     color: #B5B5B5;
     text-decoration: none;
-}
-
-.logo {
-    background: url('../img/palm-tree.png') no-repeat right bottom;
-    padding: 15px;
-}
-
-.logo img {
-    margin-top: 70px;
 }
 
 main img {
@@ -58,73 +58,57 @@ footer {
     margin-top: 50px;
 }
 
-/* Media queries */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
 
-/* Custom, iPhone Retina */
-  @media only screen and (min-width : 320px) {
+    header,
+    main {
+        width: 585px;
+        margin: 0 auto;
+    }
 
-  }
+    header {
+        text-align: inherit;
+    }
 
-  /* Extra Small Devices, Phones */
-  @media only screen and (min-width : 480px) {
+    .logo,
+    .contacts {
+        display: inline-block;
+    }
 
-  }
+    .logo {
+        text-align: center;
+    }
 
-  /* Small Devices, Tablets */
-  @media only screen and (min-width: 768px) {
+    .logo img {
+        margin-top: 100px;
+    }
 
-        header,
-        main {
-            width: 585px;
-            margin: 0 auto;
-        }
+    .contacts {
+        margin-top: 30px;
+        margin-left: 150px;
+    }
 
-        header {
-            text-align: inherit;
-        }
+    .country {
+        display: inline-block;
+        margin: 0 10px;
+    }
 
-        .logo,
-        .contacts {
-            display: inline-block;
-        }
+    .country > figcaption {
+        margin: 0 20px 50px;
+    }
+}
 
-        .logo {
-            text-align: center;
-        }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
 
-        .logo img {
-            margin-top: 100px;
-        }
+    header,
+    main {
+        width: 875px;
+        margin: 0 auto;
+    }
 
-        .contacts {
-            margin-top: 30px;
-            margin-left: 150px;
-        }
-
-        .country {
-            display: inline-block;
-            margin: 0 10px;
-        }
-
-        .country > figcaption {
-            margin: 0 20px 50px;
-        }
-  }
-
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width : 992px) {
-        header,
-        main {
-            width: 875px;
-            margin: 0 auto;
-        }
-
-        .contacts {
-            margin-left: 450px;
-        }
-  }
-
-  /* Large Devices, Wide Screens */
-  @media only screen and (min-width : 1200px) {
-
-  }
+    .contacts {
+        margin-left: 450px;
+    }
+}
