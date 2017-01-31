@@ -57,6 +57,11 @@ main img {
     border: 4px ridge #B1B1B1;
 }
 
+.wrapper a {
+	color: #fff;
+	text-decoration: none;
+}
+
 footer {
     margin: 50px auto 30px;
 }
